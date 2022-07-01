@@ -451,3 +451,88 @@ footer .widget-title-text {
 
 }
 
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm-line {
+    height: 3px;
+    background-color: #0079c7;
+}
+
+@media (max-width: 600px) {
+
+    .banner-head-line {
+        padding: 20px;
+    }
+
+    .banner-head-line h1 {
+        font-size: 55px;
+    }
+
+    .banner-head-line h2 {
+        font-size: 17px;
+    }
+
+    .banner-options {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    #geral section {
+        padding: 20px;
+    }
+
+    #geral aside {
+        padding: 20px;
+    }
+
+    .footer-menu {
+        flex-direction: column;
+    }
+
+    .footer-area {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .footer-copy {
+        padding-left: 20px;
+    }
+
+    header .container {
+        flex-direction: row;
+    }
+
+    nav ul {
+      flex-direction: column;  
+      display: none;
+      position: absolute;
+      left: 0;
+      width: 100%;
+      background-color: #FFFFFF;
+    }
+
+    header {
+        height: auto;
+    }
+    
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
